@@ -44,7 +44,6 @@ public class ItrTest {
          *              CopyOnWriteArrayList 使用迭代器进行遍历时不能remove、add、set操作 (但是可以对list本身进行remove、add等操作)
          *                  public void remove() {throw new UnsupportedOperationException();}
          * */
-        EnumMap
         /**
          * Collection & Map conclusion：
          *              ArrayList：默认容量10(jdk1.8) 线程不安全，支持随机访问吗；扩容机制：oldCapacity + (oldCapacity >> 1);(1.5倍扩容或者更大)

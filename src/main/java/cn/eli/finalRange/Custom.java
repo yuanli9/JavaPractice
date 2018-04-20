@@ -1,4 +1,4 @@
-package com.eli.finalRange;
+package cn.eli.finalRange;
 
 public class Custom extends Person{
 

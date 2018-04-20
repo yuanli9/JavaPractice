@@ -1,4 +1,4 @@
-package com.eli.finalRange;
+package cn.eli.finalRange;
 
 public class TestObject {
     String name;

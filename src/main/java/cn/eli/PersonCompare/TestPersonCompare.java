@@ -25,7 +25,6 @@ public class TestPersonCompare {
 //        personList.add(p6);
 //        personList.add(p7);
 
-
         Person p;
         String name;
         int size,score;

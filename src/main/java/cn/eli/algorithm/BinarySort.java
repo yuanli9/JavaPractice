@@ -10,6 +10,7 @@ public class BinarySort {
     public static void binarySort(Object[] a, int lo, int hi, int start) {
         if (start == lo)
             start++;
+        /** 从第一个乱序的位置开始 */
         for ( ; start < hi; start++) {
             Comparable pivot = (Comparable) a[start];
 

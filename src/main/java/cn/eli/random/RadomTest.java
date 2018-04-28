@@ -2,7 +2,7 @@ package cn.eli.random;
 
 import java.util.Random;
 
-public class testRadom {
+public class RadomTest {
 
     public static void main(String[] args) {
         Random random = new Random();

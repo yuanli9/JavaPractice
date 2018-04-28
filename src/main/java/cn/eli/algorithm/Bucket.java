@@ -52,7 +52,7 @@ public class Bucket {
         /** 桶
          *  由于需要动态分配桶里容量的大小
          *  所以为了方便使用arraylist作为桶
-         *  map满足 桶-桶里存储的元素 这样的映射关系
+         *  map满足  桶-桶里存储的元素 这样的映射关系
          * */
         Map<Integer,List<Double>> scoreMap = new HashMap<>();
 
